@@ -311,7 +311,7 @@ class _CreditCardWidgetState extends State<CreditCardWidget>
                   child: Text(
                     widget.cardNumber.isEmpty || widget.cardNumber == null
                         ? 'XXXX XXXX XXXX XXXX'
-                        : widget.cardNumber.substring(0,10),
+                        : widget.cardNumber,
                     style: widget.textStyle ?? defaultTextStyle,
                   ),
                 ),
